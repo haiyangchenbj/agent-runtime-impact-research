@@ -14,7 +14,7 @@ description: >
   Agent 发布影响评估、Harness 架构解读、插件生态影响.
 description_zh: Agent 运行时影响研究
 description_en: Agent Runtime Impact Research
-version: 1.0.2
+version: 1.0.3
 agent_created: true
 not_for:
   - Release news rewrites or short announcement summaries
@@ -23,7 +23,7 @@ not_for:
   - Vendor selection or purchase recommendations for agent products
 ---
 
-# Agent runtime impact research
+# Agent Runtime Impact Research
 
 ## When to use
 
