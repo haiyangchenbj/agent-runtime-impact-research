@@ -14,7 +14,7 @@ description: >
   Agent 发布影响评估、Harness 架构解读、插件生态影响.
 description_zh: Agent 运行时影响研究
 description_en: Agent Runtime Impact Research
-version: 1.0.3
+version: "1.0.4""
 agent_created: true
 not_for:
   - Release news rewrites or short announcement summaries
@@ -55,6 +55,7 @@ Do not use it for a short product summary, a pure tutorial, or a release-news re
 5. Benchmark claims must be qualified by harness, mode, model version, and task set.
 6. Distinguish "recorded" from "evaluated": an event log reconstructs execution but does not prove correctness.
 7. Do not infer private implementation details that are not publicly documented.
+8. Verify the release version and date under analysis before starting; assessing a stale release without labeling it misleads the impact judgment.
 
 ## Evidence and writing rules
 
