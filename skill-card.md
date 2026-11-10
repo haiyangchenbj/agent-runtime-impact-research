@@ -1,6 +1,6 @@
 ## Description:
 
-Researches and analyzes major agent harness, runtime, coding-agent, skills, subagent, and plugin releases, producing verified facts, architecture explanation, ecosystem impact analysis, and a source register with judgment and evidence visibly separated.
+Researches agent runtime and coding-agent releases to explain their architecture, verified facts, ecosystem impact, and unresolved questions.
 
 This skill is ready for commercial/non-commercial use.
 
@@ -14,7 +14,7 @@ MIT-0
 
 ## Use Case:
 
-Developers, agent-platform engineers, and analysts use this skill to assess agent runtime releases, explain their architecture, compare platform implications, and separate sourced facts from judgment.
+Developers, researchers, and platform teams use this skill to assess agent runtime releases, compare platforms, and separate sourced facts from judgments about ecosystem impact.
 
 ### Deployment Geography for Use:
 
@@ -22,37 +22,33 @@ Global
 
 ## Known Risks and Mitigations:
 
-Risk: The skill depends on current web and source research, so stale or weak sources could lead to inaccurate release facts.
+Risk: The source has malformed version metadata, which could confuse release identification.
 
-Mitigation: Use current first-party or reliable secondary sources for release facts and mark unsupported fields as unknown.
+Mitigation: Confirm the version against the server-resolved release before installation.
 
-Risk: The skill tends to answer in concise Chinese unless directed otherwise.
+Risk: The skill requests Chinese output, which may not match a user's language preference.
 
-Mitigation: Specify the desired response language when invoking the skill.
-
-Risk: Analytical judgments about runtime impact may be confused with verified product claims.
-
-Mitigation: Keep facts, observations, judgments, hypotheses, and unknowns visibly separated in the output.
+Mitigation: Confirm the preferred output language before using the generated analysis.
 
 ## Reference(s):
 
-- [ClawHub skill page](https://clawhub.ai/haiyangchenbj/skills/agent-runtime-impact-research)
-- [fact-table-schema.md](references/fact-table-schema.md)
-- [impact-layers.md](references/impact-layers.md)
+- [ClawHub skill release](https://clawhub.ai/haiyangchenbj/skills/agent-runtime-impact-research)
+- [Fact Table Schema](references/fact-table-schema.md)
+- [Impact Layers Analysis](references/impact-layers.md)
 
 ## Skill Output:
 
-**Output Type(s):** [text, markdown, guidance]
+**Output Type(s):** [Markdown, Guidance]
 
-**Output Format:** [Markdown research report with fact tables, layered analysis, comparisons, counterarguments, and source register]
+**Output Format:** [Markdown research report with a fact table and source register]
 
 **Output Parameters:** [1D]
 
-**Other Properties Related to Output:** [Requires current source searches for release facts and clearly labels facts, observations, judgments, hypotheses, and unknowns.]
+**Other Properties Related to Output:** [Explains runtime flow and layered impact; separates sourced facts, judgments, and uncertainties.]
 
 ## Skill Version(s):
 
-1.0.3 (source: frontmatter and server release evidence)
+1.0.4 (source: server-resolved release metadata)
 
 ## Ethical Considerations:
 
