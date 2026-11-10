@@ -14,7 +14,7 @@ description: >
   Agent 发布影响评估、Harness 架构解读、插件生态影响.
 description_zh: Agent 运行时影响研究
 description_en: Agent Runtime Impact Research
-version: "1.0.4""
+version: "1.0.5"
 agent_created: true
 not_for:
   - Release news rewrites or short announcement summaries
@@ -120,3 +120,4 @@ Before delivery, confirm:
 - Facts, observations, and judgments are visibly separated.
 - A limitations section explains what the release does not yet prove.
 - The final conclusion answers significance for the named platforms, Skills, and Agents rather than stopping at feature enumeration.
+- No media interpretation is presented as an official product claim, and no speculative claim is left unmarked as judgment or hypothesis.
